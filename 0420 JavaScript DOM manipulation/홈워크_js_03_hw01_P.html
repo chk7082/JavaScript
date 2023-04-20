@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .big {
+      font-size: 32px;
+    }
+  </style>
+</head>
+<body>
+  
+  <script>
+    // 이곳에 코드를 작성합니다.
+    atag = document.createElement('a')
+    atag.innerText = "SSAFY"
+    atag.setAttribute('href', 'https://www.ssafy.com/')
+    atag.setAttribute('onclick', "return false;")
+    atag.classList.add('big')
+    
+    body = document.querySelector('body')
+    body.appendChild(atag)
+  </script>
+</body>
+</html>
